@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header header{
+    display: flex; 
+    justify-content: space-around;
+    margin: 1rem auto;
+    width: 100%;
+    align-items: center;
+}
+
+.header ul li{
+    list-style-type: none;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.sectiom section{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(159, 199, 231);
+}
+
+.sectiom section aside{
+    width: 600px;
+}
+
+.sectiom section article img{
+    border-radius:50%;
+    background-color:;
+}
