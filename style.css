@@ -1,24 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sevillana&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
+    
+    
+}
+.header{
+    background-color: pink;
 }
 
 .header header{
     display: flex; 
     justify-content: space-around;
-    margin: 1rem auto;
     width: 100%;
     align-items: center;
+    
 }
+
+.header header h1{
+    font-family: sevillana;
+    line-height:25px;
+    margin-top: 50px;
+}
+
+.header header h1 p{
+    margin-left: 105px;
+    font-size: 25px;
+}
+
+
 
 .header ul li{
     list-style-type: none;
+    margin-top: 50px;
+    font-family: sevillana;
+    font-size: 135%;
 }
 .header a{
     text-decoration: none;
     color: black;
+}
+
+.header a:hover{
+   border-bottom: 1px solid black;
+}
+
+
+.header label{
+    font-family: sevillana;
+     font-size: 135%;
+}
+
+.header button{
+    margin-top: 50px;
+    background: none;
+    border: none;
+}
+
+.fa-bag-shopping{
+    font-size: 18px;
+}
+
+.header label a:hover{
+     border-bottom: 1px solid black;
 }
 
 .sectiom section{
@@ -26,14 +75,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(159, 199, 231);
+    
 }
 
 .sectiom section aside{
     width: 600px;
+    margin-bottom: 340px;
 }
 
-.sectiom section article img{
-    border-radius:50%;
-    background-color:;
-}
