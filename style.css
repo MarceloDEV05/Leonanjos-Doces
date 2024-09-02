@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sevillana&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sevillana&display=swap');
 
 *{
     margin: 0;
@@ -19,7 +19,6 @@
     justify-content: space-around;
     width: 100%;
     align-items: center;
-    
 }
 
 .header header h1{
@@ -70,6 +69,28 @@
      border-bottom: 1px solid black;
 }
 
+.navigation-bar{
+    display:flex;
+    background-color: purple ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+}
+
+.navigation-bar ul{
+     margin-bottom: 30px;
+}
+.navigation-bar li{
+    display: inline;
+    padding: 30px;
+}
+
+
+
 .sectiom section{
     padding-top: 100px;
     display: flex;
@@ -78,8 +99,25 @@
     
 }
 
-.sectiom section aside{
-    width: 600px;
+.sectiom section aside p{
+    max-width: 500px;
     margin-bottom: 340px;
+    font-family: poppins;
 }
 
+.sectiom section aside h1, h3{
+    font-family: sevillana ;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.sectiom section aside h3{
+    margin-left: 131px;
+    font-size: 35px;
+}
+
+
+
+.sectiom section article img{
+    margin-bottom: 150px;
+}
