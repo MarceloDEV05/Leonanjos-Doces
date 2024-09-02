@@ -6,12 +6,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-    
 }
 .header{
     background-color: pink;
+    height: 100vh;
 }
 
 .header header{
@@ -71,11 +69,11 @@
 
 .navigation-bar{
     display:flex;
-    background-color: purple ;
+    background-color: rgb(248, 180, 180) ;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 30px;
     width: 100%;
     height: 60px;
@@ -92,7 +90,7 @@
 
 
 .sectiom section{
-    padding-top: 100px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -101,7 +99,7 @@
 
 .sectiom section aside p{
     max-width: 500px;
-    margin-bottom: 340px;
+    margin-bottom: 240px;
     font-family: poppins;
 }
 
@@ -120,4 +118,22 @@
 
 .sectiom section article img{
     margin-bottom: 150px;
+}   
+
+.set-down{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 50px;
+    animation: float;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float {
+  0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }
+
 }
