@@ -2,74 +2,76 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sevillana&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-    background-color: pink;
+
+.header {
+    background-color: rgb(255, 255, 255);
     height: 100vh;
 }
 
-.header header{
-    display: flex; 
+.header header {
+    display: flex;
     justify-content: space-around;
     width: 100%;
     align-items: center;
 }
 
-.header header h1{
+.header header h1 {
     font-family: sevillana;
-    line-height:25px;
+    line-height: 25px;
     margin-top: 50px;
 }
 
-.header header h1 p{
+.header header h1 p {
     margin-left: 105px;
     font-size: 25px;
 }
 
 
 
-.header ul li{
+.header ul li {
     list-style-type: none;
     margin-top: 50px;
     font-family: sevillana;
     font-size: 135%;
 }
-.header a{
+
+.header a {
     text-decoration: none;
     color: black;
 }
 
-.header a:hover{
-   border-bottom: 1px solid black;
+.header a:hover {
+    border-bottom: 1px solid black;
 }
 
 
-.header label{
+.header label {
     font-family: sevillana;
-     font-size: 135%;
+    font-size: 135%;
 }
 
-.header button{
+.header button {
     margin-top: 50px;
     background: none;
     border: none;
 }
 
-.fa-bag-shopping{
+.fa-bag-shopping {
     font-size: 18px;
 }
 
-.header label a:hover{
-     border-bottom: 1px solid black;
+.header label a:hover {
+    border-bottom: 1px solid black;
 }
 
-.navigation-bar{
-    display:flex;
-    background-color: rgb(248, 180, 180) ;
+.navigation-bar {
+    display: flex;
+    background-color: rgb(248, 180, 180);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -79,51 +81,53 @@
     height: 60px;
 }
 
-.navigation-bar ul{
-     margin-bottom: 30px;
+.navigation-bar ul {
+    margin-bottom: 30px;
 }
-.navigation-bar li{
+
+.navigation-bar li {
     display: inline;
     padding: 30px;
 }
 
 
 
-.sectiom section{
+.sectiom section {
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
-.sectiom section aside p{
+.sectiom section aside p {
     max-width: 500px;
-    margin-bottom: 240px;
+    margin-bottom: 200px;
     font-family: poppins;
 }
 
-.sectiom section aside h1, h3{
-    font-family: sevillana ;
+.sectiom section aside h1,
+h3 {
+    font-family: sevillana;
     font-size: 40px;
     line-height: 30px;
 }
 
-.sectiom section aside h3{
+.sectiom section aside h3 {
     margin-left: 131px;
     font-size: 35px;
 }
 
 
 
-.sectiom section article img{
-    margin-bottom: 150px;
-}   
+.sectiom section article img {
+    margin-bottom: 200px;
+}
 
-.set-down{
+.set-down {
     display: flex;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     font-size: 50px;
     animation: float;
     animation-duration: 5s;
@@ -132,8 +136,55 @@
 }
 
 @keyframes float {
-  0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 10px); }
-    100%   { transform: translate(0, -0px); }
+    0% {
+        transform: translate(0, 0px);
+    }
 
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+
+}
+
+/* fim header*/
+
+/*inicio pag central*/
+.center-Page {
+    background-color: rgb(248, 180, 180);
+    height: 100vh;
+    margin-top: 250px;
+
+}
+
+.center-Page section {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-Page aside,
+article {
+    margin-top: 130px;
+    align-items: center;
+}
+
+.center-Page section aside p {
+    width: 500px;
+}
+
+.center-Page section aside h1,
+h3 {
+    font-family: sevillana;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.center-Page section aside h3 {
+    margin-left: 131px;
+    font-size: 35px;
 }
