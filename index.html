@@ -10,7 +10,7 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>Document</title>
+  <title>Leonanjo´s Doces</title>
 </head>
 
 <body>
@@ -23,16 +23,34 @@
 
       <ul>
         <li><a href="#">Cardápio</a></li>
+
+        <li>
+          Siga-nos<button>
+            <a href="">
+              <img src="imgs/1658586823instagram-logo-transparent.webp" alt="logo instagram" width="30px">
+            </a>
+          </button>
+        </li>
+
       </ul>
 
-      <label><a href="#">Meus Pedidos <button><i class="fa-solid fa-bag-shopping"></i></button></a>
+      <label><a href="#">Meus Pedidos <button id="pedidos" onclick="pedidos()"><i class="fa-solid fa-bag-shopping"></i></button></a>
     </header>
 
     <div class="navigation-bar">
       <ul>
-        <li>todas as categorias <button><i class="fa-solid fa-caret-down"></i></button></li>
-        <li>lançamentos</li>
-        <li>bolos de pote</li>
+        <li>todas as categorias
+          <button id="btn-categorias" onclick="CategoriaDoces()"><i class="fa-solid fa-caret-down"></i></button>
+        </li>
+
+        <li>lançamentos
+          <button id="btn-lancamentos"><i class="fa-solid fa-caret-down"></i></button>
+        </li>
+
+        <li>bolos de pote
+          <button id="btn-bolos"><i class="fa-solid fa-caret-down"></i></button>
+        </li>
+
       </ul>
     </div>
 
@@ -61,19 +79,41 @@
   </div>
 
   <div class="center-Page">
-      <section>
-        <article>
-          <img src="/imgs/D_NQ_NP_631711-MLU70063385706_062023-O.png" alt="">
-        </article>
-        <aside>
-           <h1>Leonanjo´s</h1>
-          <h3>doces</h3><br>
+    <section>
+      <article>
+        <img src="/imgs/D_NQ_NP_631711-MLU70063385706_062023-O.png" alt="" width="500">
+      </article>
+      <aside>
+        <h1>Leonanjo´s</h1>
+        <h3>doces</h3><br>
 
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facere itaque quia porro esse eaque corporis, deserunt earum iste provident consequatur necessitatibus omnis nesciunt magni molestiae totam aperiam reiciendis in!</p>
-        </aside>
-      </section>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facere itaque quia porro esse eaque
+          corporis, deserunt earum iste provident consequatur necessitatibus omnis nesciunt magni molestiae totam
+          aperiam reiciendis in!</p>
+      </aside>
+    </section>
+
+    <button class="card-button">Ir para Cardápio</button>
   </div>
 
+  <div class="footer-Page">
+    <section class="social">
+      <aside>
+
+      </aside>
+    </section>
+
+  </div>
+
+
+<div class="pedidos">
+  <div class="title">
+    <h1>Meus Pedidos</h1>
+  </div>
+</div>
+ 
+
+  <script src="scripts.js"></script>
 </body>
 
 </html>
