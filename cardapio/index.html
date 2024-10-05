@@ -6,45 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/cardapio/style.css">
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Cardápio</title>
 </head>
 
 <body>
 
+    <header>
+        <h1 class="name-page">Leonanjo
+        <p class="sub-name">doces</p>
+        </h1>
 
-<header>
-      <h1>Leonanjo´s
-        <p>doces</p>
-      </h1>
+        <ul>
+            <li><a href="/index.html">Início</a></li>
+        </ul>
 
-
-      <ul>
-        <li><a href="#">Cardápio</a></li>
-
-        <li>
-          Siga-nos<button>
-            <a href="">
-              <img src="/imgs/1658586823instagram-logo-transparent.webp" alt="logo instagram" width="30px">
-            </a>
-          </button>
-        </li>
-
-      </ul>
-
-      <label><a href="#">Meus Pedidos <button id="pedidos" onclick="pedidos()"><i class="fa-solid fa-bag-shopping"></i></button></a>
+      <label><a href="#">Meus Pedidos <button class="pedidos" onclick="pedidos()"><i class="fa-solid fa-bag-shopping"></i></button></a>
     </header>
-
 
 
     <div class="title">
         <h1>Conheça nosso Cardápio</h1>
     </div>
 
-        <h2 class="subTitle" id="subTitle">Bolos de Pote</h2>
+    <h2 class="subTitle" id="subTitle">Bolos de Pote</h2>
 
     <div class="products">
         <!--inicio produto-->
@@ -52,7 +40,7 @@
             <article class="img-name">
                 <img src="/imgs/MED_bolo-de-pote-pop-vegan-200g-551867.jpeg" alt="" width="120">
                 <h3 class="name">Brigadeiro</h3>
-                
+
             </article>
 
             <aside class="produto-price">
@@ -63,7 +51,7 @@
         </div>
         <!--fim produto-->
 
-           <!--inicio produto-->
+        <!--inicio produto-->
         <div class="produto2">
             <article class="img-name">
                 <img src="/imgs/202305042019_417L_i.avif" alt="" width="150">
@@ -77,7 +65,7 @@
         </div>
         <!--fim produto-->
 
-           <!--inicio produto-->
+        <!--inicio produto-->
         <div class="produto3">
             <article class="img-name">
                 <img src="/imgs/6494a896e7e12nyb5q.webp" alt="" width="115">
@@ -91,7 +79,7 @@
         </div>
         <!--fim produto-->
 
-           <!--inicio produto-->
+        <!--inicio produto-->
         <div class="produto4">
             <article class="img-name">
                 <img src="/imgs/e348ee25b1b40e08997064bed1234da1.jpg" alt="" width="120">
@@ -104,6 +92,72 @@
             </aside>
         </div>
         <!--fim produto-->
+    </div>
+
+
+    <div>
+        
+    <h2 class="subTitle" id="subTitle">Potes da Felicidade</h2>
+
+    <div class="products">
+        <!--inicio produto-->
+        <div class="produto1">
+            <article class="img-name">
+                <img src="/imgs/MED_bolo-de-pote-pop-vegan-200g-551867.jpeg" alt="" width="120">
+                <h3 class="name">Brigadeiro</h3>
+
+            </article>
+
+            <aside class="produto-price">
+                <h4 class="price">R$10,00</h4>
+                <button class="adPedido" id="btn-add">Adicionar pedido</button>
+
+            </aside>
+        </div>
+        <!--fim produto-->
+
+        <!--inicio produto-->
+        <div class="produto2">
+            <article class="img-name">
+                <img src="/imgs/202305042019_417L_i.avif" alt="" width="150">
+                <h3 class="name">Choconinho</h3>
+            </article>
+
+            <aside class="produto-price">
+                <h4 class="price">R$10,00</h4>
+                <button class="adPedido" id="btn-add">Adicionar pedido</button>
+            </aside>
+        </div>
+        <!--fim produto-->
+
+        <!--inicio produto-->
+        <div class="produto3">
+            <article class="img-name">
+                <img src="/imgs/6494a896e7e12nyb5q.webp" alt="" width="115">
+                <h3 class="name">Prestígio</h3>
+            </article>
+
+            <aside class="produto-price">
+                <h4 class="price">R$10,00</h4>
+                <button class="adPedido" id="btn-add">Adicionar pedido</button>
+            </aside>
+        </div>
+        <!--fim produto-->
+
+        <!--inicio produto-->
+        <div class="produto4">
+            <article class="img-name">
+                <img src="/imgs/e348ee25b1b40e08997064bed1234da1.jpg" alt="" width="120">
+                <h3 class="name">Ferrero Rocher</h3>
+            </article>
+
+            <aside class="produto-price">
+                <h4 class="price">R$12,00</h4>
+                <button class="adPedido" id="btn-add">Adicionar pedido</button>
+            </aside>
+        </div>
+        <!--fim produto-->
+    </div>
     </div>
 </body>
 
