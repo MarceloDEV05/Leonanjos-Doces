@@ -216,6 +216,41 @@ h3 {
 }
 
 .pedidos{
-    display: none;
+  background-color: rgba(0, 0, 0, 0.678);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  
 }
-/*footer-Page*/
+
+.modal{
+    background-color: white;
+    margin: 15rem auto;
+    width: 300px;
+    border-radius: 8px;
+}
+.title-modal h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.modal label{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.chosen-sweet{
+    margin-top: 40px;
+}
+
+#name-client{
+    margin-left: 9px;
+    padding:8px;
+    border-radius: 8px;
+    width: 280px;
+}

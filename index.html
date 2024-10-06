@@ -107,11 +107,29 @@
 
 
 <div class="pedidos">
-  <div class="title">
-    <h1>Meus Pedidos</h1>
-  </div>
+    <div class="modal">
+      <div class="title-modal">
+        <h1>Pedidos</h1>
+        </div>
+
+        <div class="chosen-sweet">
+
+        </div>
+
+        <label>Digite seu nome:<br>
+        <input type="text" id="name-client" placeholder="Digite seu nome">
+
+        <div class="finalizar-pedido">
+          <div class="button-finally">
+          <button id="finalizar" onclick="pedidoFinalizado()">Finalizar</button>
+          </div>
+          <div class="fechar-modal">
+            <button id="close-modal" onclick="fecharModal()">fechar</button>
+          </div>
+        </div>
+    </div>
 </div>
- 
+
 
   <script src="scripts.js"></script>
 </body>
