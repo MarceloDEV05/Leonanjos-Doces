@@ -231,7 +231,8 @@ h3 {
 .modal{
     background-color: white;
     margin: 15rem auto;
-    width: 300px;
+    width: 350px;
+    height: 200px;
     border-radius: 8px;
 }
 .title-modal h1{
@@ -252,5 +253,22 @@ h3 {
     margin-left: 9px;
     padding:8px;
     border-radius: 8px;
-    width: 280px;
+    width: 330px;
+}
+
+.finalizar-pedido{
+    display: flex;
+    justify-content: space-between;
+}
+
+#finalizar{
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#close-modal{
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
