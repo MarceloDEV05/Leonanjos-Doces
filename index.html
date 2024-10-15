@@ -22,7 +22,7 @@
 
 
       <ul>
-        <li><a href="/cardapio/index.html" target="_blank">Cardápio</a></li>
+        <li><a href="cardapio.html" target="_blank">Cardápio</a></li>
 
         <li>
           Siga-nos<button>
@@ -30,30 +30,13 @@
               <img src="imgs/1658586823instagram-logo-transparent.webp" alt="logo instagram" width="30px">
             </a>
           </button>
-        </li>
+          </li>
 
       </ul>
 
-      <label>Meus Pedidos <button class="client-Pedidos"><i class="fa-solid fa-bag-shopping"></i></button><span id="qtd-pedidos">(1)</span>
+      <label>Meus Pedidos <button class="client-Pedidos"><i class="fa-solid fa-bag-shopping"></i></button><span
+          id="qtd-pedidos">(1)</span>
     </header>
-
-    <div class="navigation-bar">
-      <ul>
-        <li>todas as categorias
-          <button id="btn-categorias"><i class="fa-solid fa-caret-down"></i></button>
-        </li>
-
-        <li>lançamentos
-          <button id="btn-lancamentos"><i class="fa-solid fa-caret-down"></i></button>
-        </li>
-
-        <li>bolos de pote
-          <button id="btn-bolos"><i class="fa-solid fa-caret-down"></i></button>
-        </li>
-
-      </ul>
-    </div>
-
 
     <div class="sectiom">
       <section>
@@ -93,33 +76,36 @@
       </aside>
     </section>
 
-    <button class="card-button">Ir para Cardápio</button>
+    <button class="card-button"><a href="cardapio.html" target="_blank">Ir para Cardápio</a></button>
   </div>
 
 
-<div class="pedidos">
+  <div class="pedidos">
     <div class="modal">
       <div class="title-modal">
         <h1>Pedidos</h1>
-        </div>
+      </div>
 
-        <div class="chosen-sweet">
+      <div class="chosen-sweet">
+        <ul id="list">
 
-        </div>
+        </ul>
 
-        <label>Digite seu nome:<br>
+      </div>
+
+      <label>Digite seu nome:<br>
         <input type="text" id="name-client" placeholder="Digite seu nome">
 
         <div class="finalizar-pedido">
           <div class="button-finally">
-          <button id="finalizar">Finalizar</button>
+            <button id="finalizar">Finalizar</button>
           </div>
           <div class="fechar-modal">
             <button id="close-modal">fechar</button>
           </div>
         </div>
     </div>
-</div>
+  </div>
 
 
   <script src="/scripts.js"></script>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/cardapio/style.css">
+    <link rel="stylesheet" href="cardapio.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -21,10 +21,10 @@
         </h1>
 
         <ul>
-            <li><a href="/index.html">Início</a></li>
+            <li><a href="index.html">Início</a></li>
         </ul>
 
-      <label><a href="#">Meus Pedidos <button class="pedidos" onclick="pedidos()"><i class="fa-solid fa-bag-shopping"></i></button></a>
+      <label> Meus Pedidos <button class="pedidos"><i class="fa-solid fa-bag-shopping"></i></button></a>
     </header>
 
 
@@ -227,6 +227,25 @@
 
     </div>
 
+    <section id="modal-de-pedidos">
+        <div class="modal">
+            <h1>Pedidos</h1>
+
+            <div id="sweet"></div>
+
+            <div id="info">
+                <input type="text" id="name-client">
+            </div>
+
+            <div id="btns">
+                <div id="btn-finaly">
+                    <button id="finalizar">Finalizar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="cardapio.js"></script>
 </body>
 
 </html>
