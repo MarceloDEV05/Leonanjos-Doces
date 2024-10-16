@@ -259,3 +259,67 @@ h3 {
     margin-right: 10px;
     margin-top: 5px;
 }
+
+/*estilo cardapio*/
+
+.title h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: sevillana;
+}
+
+.subTitle {
+    margin-top: 40px;
+    text-align: center;
+    font-family: sevillana;
+}
+
+h3 {
+    margin-top: 10px;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+.products {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.produto1,
+.produto2,
+.produto3,
+.produto4 {
+    margin-top: 10px;
+}
+
+
+.products img {
+    border-radius: 50%;
+}
+
+.adPedido {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00ff00;
+    border: 1px green;
+    border-radius: 5px;
+    color: white;
+}
+
+.name{
+    font-family: sevillana;
+}
+.price{
+    margin-top: 10px;
+    font-family: poppins;
+    color: green;
+}
+
+
+/*estilo cardapio*/
+

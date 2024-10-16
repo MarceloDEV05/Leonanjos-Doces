@@ -1,3 +1,14 @@
+const buttonAdd = document.getElementById('btn-add')
+const item = document.querySelector('.chosen-sweet')
+const products = document.querySelector('.products')
+
+buttonAdd.addEventListener('click', () =>{
+  
+})
+
+
+let listaDePedidos = []
+
 
 //modal de pedidos dos clientes
 let modal = document.querySelector('.pedidos')

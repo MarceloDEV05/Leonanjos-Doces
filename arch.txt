@@ -1,0 +1,2 @@
+<button class="addCart-btn" data-name="Incensário de Arco-Íris" data-price="10,00"
+                        data-img="./assets/70fcfde4-4377-4c56-bd51-bd10bf45f5f8.jpg">
